@@ -3,7 +3,7 @@ import numpy as np
 from sklearn.model_selection import cross_val_score
 from sklearn.metrics import mean_squared_error
 
-df=pd.read_excel(r"C:\Users\spano\Desktop\cleaned2.xlsx",'Sheet2')
+df=pd.read_excel(r'C:\Users\spano\Desktop\cleaned2.xlsx",'Sheet2')
 pd.set_option('display.max_columns', None)
 
 
