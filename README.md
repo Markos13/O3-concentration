@@ -104,17 +104,8 @@ Bagging Regression Model
 Performance Evaluation
 ```
 
-## Key Skills Demonstrated
-
-- Data preprocessing and cleaning
-- Statistical analysis for feature selection
-- Handling outliers in real-world datasets
-- Regression model development
-- Ensemble learning techniques
-- Model evaluation and interpretation
-
 ## Conclusion
 
 This project demonstrates the application of machine learning techniques to an environmental prediction problem using real-world atmospheric data. By combining statistical analysis, preprocessing techniques, and ensemble regression, the model was able to achieve reliable ozone concentration predictions.
 
-The project provided practical experience in building a complete machine learning pipeline, from raw data processing to model evaluation.
+The results show that machine learning models can capture relationships between different atmospheric components and ozone levels, providing a potential approach for air quality prediction tasks.
