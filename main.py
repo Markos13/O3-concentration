@@ -48,7 +48,7 @@ bag_model=BaggingRegressor(
 
 bag_model.fit(X_train,Y_train)
 predictions=bag_model.predict(X_test)
-RMSE=mean_squared_error(Y_test,predictions)
+RMSE = np.sqrt(mean_squared_error(Y_test, predictions))
 print(f"R-squared: {bag_model.score(X_test,Y_test):.2f}",f"RMSE: {RMSE:.2f}",sep='\n')
 
 
