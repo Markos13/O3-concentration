@@ -54,6 +54,8 @@ Model configuration:
 
 The dataset was divided into training and testing sets, and the model performance was evaluated using regression metrics.
 
+To make the evaluation metrics easier to interpret, the predicted values and the corresponding test values are transformed back to their original scale using the inverse transformation of the fitted StandardScaler. The Root Mean Squared Error (RMSE) is then calculated using these original O3 values.
+
 Evaluation metrics:
 
 - **R-squared (R²)**
@@ -63,8 +65,8 @@ The final model achieved:
 
 | Metric | Score |
 |--------|-------|
-| R² Score | 0.79 |
-| RMSE | 0.21 |
+| R² Score | 0.78 |
+| RMSE (original O3 units) | 16.17 |
 
 The results indicate that the model was able to capture a significant portion of the relationship between atmospheric variables and ozone concentration.
 
